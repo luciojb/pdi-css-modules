@@ -1,25 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Widget1 from "./widget1/Widget1";
+import Widget2 from "./widget2/Widget2";
+import Widget3 from "./widget3/Widget3";
+import Widget4 from "./widget4/Widget4";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <Widget1></Widget1>
+            <Widget2></Widget2>
+            <Widget3></Widget3>
+            <Widget4></Widget4>
+        </div>
+
+    );
 }
 
 export default App;
